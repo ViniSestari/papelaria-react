@@ -20,7 +20,7 @@ function Menu() {
             <a className="nav-link" href="serviços.html">Serviços</a>
             </li>
           <li className="nav-item">
-            <a className="nav-link" href="sobre.html">Sobre a Loja</a>
+            <a className="nav-link" href="sobre.html">Sobre Nós</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="blog.html">Nosso Blog</a>

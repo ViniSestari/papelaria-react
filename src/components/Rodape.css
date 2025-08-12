@@ -1,0 +1,10 @@
+.rodape {
+    background-color: #c30000;
+    color: #000000;
+    padding: 20px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+ }

@@ -1,10 +1,9 @@
-import Menu from '../components/Menu';
+
 
 function Inicio() {
     return (
         <>
-            <Menu />
-           
+        
         </>
     );
 }
