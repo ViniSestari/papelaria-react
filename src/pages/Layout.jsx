@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Rodape from "../components/Rodape";
 import Banner from "../components/Banner";
 
+
 function Layout() {
     return (
         <>
@@ -12,6 +13,7 @@ function Layout() {
             <Header />
             <Banner />
             <Outlet />
+
         </div>
         <Rodape />
         </>

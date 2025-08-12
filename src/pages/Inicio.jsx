@@ -1,9 +1,9 @@
-
+import CardInicio from "../components/CardInicio";
 
 function Inicio() {
     return (
         <>
-        
+            <CardInicio />
         </>
     );
 }
