@@ -5,6 +5,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './pages/Layout';
 import Inicio from './pages/Inicio';
+import Servicos from './pages/Servicos';
+import Sobre from './pages/Sobre';
+
+
 
 function App() {
   
@@ -13,8 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Inicio />} />
-        
-          
+          <Route path="servicos" element={<Servicos />} />
+          <Route path="sobre" element={<Sobre />} />
         </Route>
       </Routes>
     </BrowserRouter>
