@@ -9,6 +9,7 @@ import Servicos from './pages/Servicos';
 import Sobre from './pages/Sobre';
 import Blog from './pages/Blog';
 import Contato from './pages/Contato';
+import Artigo from './pages/Artigo';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="sobre" element={<Sobre />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contato" element={<Contato />} />
+          <Route path="artigo/:id" element={<Artigo />} />
         </Route>
       </Routes>
     </BrowserRouter>
