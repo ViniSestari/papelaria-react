@@ -1,36 +1,39 @@
-
-
-document.addEventListener("DOMContentLoaded", () => {
-      const params = new URLSearchParams(window.location.search);
-      const id = params.get("id");
-
-      const artigo = artigos[id];
-
-      if (artigo) {
-        document.getElementById("titulo").textContent = artigo.titulo;
-        document.getElementById("data").textContent = artigo.data;
-        document.getElementById("imagem").src = artigo.imagem;
-        document.getElementById("imagem").alt = artigo.titulo;
-        document.getElementById("conteudo").innerHTML = artigo.conteudo;
-      } else {
-        document.getElementById("conteudo").innerHTML = "<p>Artigo não encontrado.</p>";
-      }
-    });
+// src/pages/Artigo.jsx
+import { Link, useLocation } from "react-router-dom";
+import artigos from "../data/artigos";
+import "../components/Artigo.css";
 
 function Artigo() {
-  
+  const location = useLocation();
+  const params = new URLSearchParams(location.search);
+  const id = params.get("id");
+
+  const artigo = artigos[id];
+
+  if (!artigo) {
+    return (
+      <section className="container my-5 blog-article">
+        <Link to="/blog" className="btn btn-danger mb-4">
+          &larr; Voltar para o Blog
+        </Link>
+        <p>Artigo não encontrado.</p>
+      </section>
+    );
+  }
+
   return (
     <>
     <section className="container my-5 blog-article">
-    <a href="/blog" className="btn btn-danger mb-4">&larr; Voltar para o Blog</a>
-    <h1 id="titulo"></h1>
-    <p className="text-muted" id="data"></p>
-    <img id="imagem" src="" alt="Imagem do artigo" />
-    <div id="conteudo"></div>
-  </section>
+      <Link to="/blog" className="btn btn-danger mb-4">
+        &larr; Voltar para o Blog
+      </Link>
+      <h1>{artigo.titulo}</h1>
+      <p className="text-muted">{artigo.data}</p>
+      <img src={artigo.imagem} alt={artigo.titulo} className="img-fluid mb-4" />
+      <div dangerouslySetInnerHTML={{ __html: artigo.conteudo }} />
+    </section>
     </>
   );
 }
-
 
 export default Artigo;

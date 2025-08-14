@@ -1,0 +1,47 @@
+/* src/styles/Artigo.css */
+.blog-article h1, .blog-article h2 {
+  font-size: 2.5rem;
+  color: #c30000;
+}
+
+.blog-article p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.blog-article li {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.blog-article img {
+  max-width: 100%;
+  max-height: 450px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+nav {
+  background-color: #c30000;
+  color: #000;
+  padding: 10px;
+  font-family: "Libertinus Mono", monospace;
+  font-size: 22px;
+}
+
+nav img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background-color: #c30000;
+  color: #000;
+  padding: 20px;
+  font-family: 'Courier New';
+  font-weight: bold;
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+}
