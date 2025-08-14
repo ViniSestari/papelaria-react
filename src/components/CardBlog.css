@@ -1,0 +1,53 @@
+.card {
+  max-width: 986px;
+ box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.card-img-top {  
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.card-title {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus {
+  border-color: #d32f2f;
+  box-shadow: 0 0 0 0.2rem rgba(211,47,47,.15);
+}
+
+.btn-primary {
+  background-color: #d32f2f;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #b71c1c;
+}
+
+.btn-outline-danger, .btn-outline-success {
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+hr {
+  margin: 2rem 0;
+}

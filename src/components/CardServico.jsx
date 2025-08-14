@@ -6,7 +6,7 @@ function CardServico() {
       <div className="row g-4">
 
         <div className="col-md-4">
-          <div className="card h-100">
+          <div className="card">
             <img src="serviço1.webp" className="card-img-servico img-fluid" alt="Servico 1"/>
             <div className="card-body">
               <h5 className="card-title">Xerox e Impressão</h5>

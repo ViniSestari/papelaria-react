@@ -7,7 +7,8 @@ import Layout from './pages/Layout';
 import Inicio from './pages/Inicio';
 import Servicos from './pages/Servicos';
 import Sobre from './pages/Sobre';
-
+import Blog from './pages/Blog';
+import Contato from './pages/Contato';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <Route index element={<Inicio />} />
           <Route path="servicos" element={<Servicos />} />
           <Route path="sobre" element={<Sobre />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="contato" element={<Contato />} />
         </Route>
       </Routes>
     </BrowserRouter>

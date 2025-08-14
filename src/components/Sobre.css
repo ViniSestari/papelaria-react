@@ -1,0 +1,16 @@
+.img-sobre {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.texto{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 40px 20px;
+   text-align: left;
+   font-family: 'Courier New';
+   font-weight: bold;
+}
