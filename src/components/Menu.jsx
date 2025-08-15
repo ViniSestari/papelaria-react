@@ -29,10 +29,10 @@ function Menu() {
               <a className="nav-link" href="/Sobre">Sobre Nós</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Blog">Nosso Blog</a>
+              <a className="nav-link" href="/Contato">Contato</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Contato">Contato</a>
+              <a className="nav-link" href="/Blog">Nosso Blog</a>
             </li>
           </ul>
         </div>
