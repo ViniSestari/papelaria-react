@@ -1,5 +1,5 @@
 body{
-    background-image: url("./fundo.jpeg");
+    background-image: url('/fundo.jpeg');
     background-size: cover;
     min-height: 100vh;
     display: flex;
