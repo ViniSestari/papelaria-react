@@ -27,7 +27,7 @@ const artigos = {
         <li>Adesivos para personalização</li>
       </ul>
 
-      <p><strong>Gostou dessas dicas?</strong> Visite nossa loja ou entre em contato pelo WhatsApp para montar seu kit ideal. E não se esqueça de seguir nosso Instagram @papelariamickey para mais inspirações!</p>
+      <p><strong>Gostou dessas dicas?</strong> Visite nossa loja ou entre em contato pelo WhatsApp para montar seu kit ideal. E não se esqueça de seguir nosso Instagram @mickeypapelaria para mais inspirações!</p>
     `
   },
 
